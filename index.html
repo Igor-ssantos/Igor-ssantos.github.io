@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Declara o tipo de documento e a linguagem -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define como o site se adapta a diferentes tamanhos de tela -->
+    <title>Site da Jú</title> <!-- Título do site que aparece na aba do navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para um arquivo CSS externo para estilização -->
+</head>
+
+<body>
+    <header>
+        <h1>A música é a alma transformada em arte!</h1> <!-- Cabeçalho principal -->
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li> <!-- Link para a seção "Sobre" -->
+                <li><a href="#serviços">Serviços</a></li> <!-- Link para a seção "Serviços" -->
+                <li><a href="#contato">Contato</a></li> <!-- Link para a seção "Contato" -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Formação e vivências</h2> <!-- Subtítulo da seção "Sobre" -->
+            <p>Chamar os outros de lixo</p> <!-- Parágrafo descritivo -->
+        </section>
+
+        <section id="serviços">
+            <h2>Carta de serviços</h2> <!-- Subtítulo da seção "Serviços" -->
+            <ul>
+                <li>Aulas de violino</li> <!-- Item de lista de serviço -->
+                <li>Apresentação solo para eventos</li>
+                <li>Coordenação de eventos</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Fala com a Jú</h2> <!-- Subtítulo da seção "Contato" -->
+            <form>
+                <label for="nome">Júlia Nogueira Paiva</label> <!-- Rótulo para o campo de entrada -->
+                <input type="text" id="nome" name="nome" required> <!-- Campo de entrada para o nome -->
+
+                <label for="email">Julia.Nogueira@Jú.com</label>
+                <input type="email" id="email" name="email" required> <!-- Campo de entrada para o email -->
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea> <!-- Área de texto para a mensagem -->
+
+                <button type="submit">Enviar</button> <!-- Botão de envio do formulário -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Site da Jú. Todos os direitos reservados.</p> <!-- Rodapé com informações de direitos autorais -->
+    </footer>
+</body>
+
+</html>
